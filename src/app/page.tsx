@@ -25,8 +25,8 @@ export default function Home() {
 			<HamburguerMenu />
 			<HeroSection />
 			<ProductsSection />
-			<StorySection />
 			<InspirationSection />
+			<StorySection />
 			<AboutSection />
 		</div>
 	);
