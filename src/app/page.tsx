@@ -22,11 +22,10 @@ export default function Home() {
 
 	return (
 		<div>
-			<HamburguerMenu />
 			<HeroSection />
 			<ProductsSection />
-			<StorySection />
 			<InspirationSection />
+			<StorySection />
 			<AboutSection />
 		</div>
 	);

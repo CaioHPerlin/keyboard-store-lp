@@ -16,7 +16,7 @@ export default function HeroSection() {
 				}}
 			>
 				<video autoPlay muted loop playsInline>
-					<source src="/hero-section-video.mp4" type="video/mp4" />
+					<source src="/Video_Inicial.webm" type="video/webm" />
 				</video>
 			</motion.div>
 			<section className={style.heroSection}>
@@ -32,7 +32,7 @@ export default function HeroSection() {
 							ease: "easeInOut",
 						}}
 					>
-						Harbour to home
+            Corsair Black Friday
 					</motion.h1>
 
 					<motion.p
@@ -46,9 +46,7 @@ export default function HeroSection() {
 							ease: "easeInOut",
 						}}
 					>
-						Trust, traceability, tradition – this trinity ensures we always deliver
-						superior seafood, responsibly harvested and carefully processed, from
-						harbour to home.
+						Durante a Black Friday Corsair, diveresos produtos da marca estão saindo com até 30% de desconto!
 					</motion.p>
 
 					<motion.h3
@@ -61,7 +59,7 @@ export default function HeroSection() {
 							ease: "easeInOut",
 						}}
 					>
-						Watch the brand film
+						Compre Agora
 					</motion.h3>
 				</div>
 			</section>
