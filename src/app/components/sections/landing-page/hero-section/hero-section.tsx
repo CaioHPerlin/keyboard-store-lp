@@ -32,7 +32,7 @@ export default function HeroSection() {
 							ease: "easeInOut",
 						}}
 					>
-						Corsair Black Friday
+						Black Friday Corsair
 					</motion.h1>
 
 					<motion.p
@@ -50,8 +50,7 @@ export default function HeroSection() {
 						com até 30% de desconto!
 					</motion.p>
 
-					<motion.a
-						href="#"
+					<motion.h3
 						initial={{ opacity: 0, x: 50, y: 0 }}
 						whileInView={{ opacity: 1, x: 0, y: 0 }}
 						viewport={{ once: true, amount: 0.2 }}
@@ -62,7 +61,7 @@ export default function HeroSection() {
 						}}
 					>
 						Compre Agora
-					</motion.a>
+					</motion.h3>
 				</div>
 			</section>
 		</SectionWrapper>

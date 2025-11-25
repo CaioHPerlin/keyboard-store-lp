@@ -22,6 +22,7 @@ export default function Home() {
 
 	return (
 		<div>
+			<HamburguerMenu />
 			<HeroSection />
 			<ProductsSection />
 			<InspirationSection />

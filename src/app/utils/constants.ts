@@ -6,6 +6,6 @@ export const ANIMATIONS = {
 		SLOWER: 0.8,
 	},
 	DELAY: {
-		DEFAULT: 0.15,
+		DEFAULT: 0.075,
 	},
 };
