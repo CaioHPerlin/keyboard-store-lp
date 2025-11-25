@@ -48,7 +48,7 @@ export function InspirationSection() {
 								ease: "easeOut",
 							}}
 						>
-							Inspiration
+							Parceria
 						</motion.h2>
 						<motion.h2
 							initial={{ x: 50, opacity: 0 }}

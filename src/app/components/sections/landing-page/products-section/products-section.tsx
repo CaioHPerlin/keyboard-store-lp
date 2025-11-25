@@ -57,7 +57,7 @@ export function ProductsSection() {
 	return (
 		<SectionWrapper className={style.productsSectionWrapper}>
 			<section className={style.productsSection}>
-				<h1>Products</h1>
+				<h1>Produtos</h1>
 				<ul>
 					<div className={style.wavePatternWrapper}>
 						<Image src={wavePatternImage} fill alt={"Wave pattern background"} />
@@ -149,7 +149,7 @@ function ProductCard({
 				</div>
 				<div className={style.productFooter}>
 					<p>{description}</p>
-					<span className={style.arrow}>Go to product </span>
+					<span className={style.arrow}>Ver produto </span>
 				</div>
 			</Link>
 		</motion.li>

@@ -2,7 +2,7 @@ import SectionWrapper from "@/app/components/section-wrapper/section-wrapper";
 import style from "./about-section.module.css";
 import Image from "next/image";
 
-import backgroundImage from "@/app/assets/images/about-section/background.jpg";
+import backgroundImage from "@/app/assets/images/about-section/background-0.jpg";
 import { motion } from "motion/react";
 import { ANIMATIONS } from "@/app/utils/constants";
 
@@ -13,7 +13,7 @@ export function AboutSection() {
 				<Image src={backgroundImage} alt="About Section background image" />
 			</div>
 			<section className={style.aboutSection}>
-				<h1>About</h1>
+				<h1>Sobre</h1>
 				<div className={style.main}>
 					<motion.p
 						initial={{ x: -50, opacity: 0 }}
@@ -26,9 +26,9 @@ export function AboutSection() {
 						}}
 						className={style.mainText}
 					>
-						Trust, traceability, tradition – this trinity ensures we always deliver
-						superior Norwegian seafood, responsibly harvested and carefully
-						processed, from harbour to home.
+						Qualidade, personalização, paixão – esta trindade garante que sempre
+						entreguemos teclados mecânicos superiores, cuidadosamente projetados e
+						montados, da bancada até o seu setup.
 					</motion.p>
 					<motion.a
 						initial={{ x: -50, opacity: 0 }}
@@ -42,7 +42,7 @@ export function AboutSection() {
 						className={style.arrow}
 						href="#"
 					>
-						Explore the babord brand
+						Explore a nossa marca
 					</motion.a>
 					<motion.div
 						initial={{ x: 50, opacity: 0 }}
@@ -56,18 +56,18 @@ export function AboutSection() {
 						className={style.info}
 					>
 						<p>
-							Visit us at
+							Visite-nos na
 							<br />
-							Maritim Park, Nedrevegen 108
+							R. da Saudade, Foo 108
 							<br />
 							Pb. 84
 							<br />
-							6707 Raudeberg, Norway
+							6707 Cidade B, Brasil
 						</p>
 						<p>
-							<a href="tel:004757848890">Tel: +47 57 84 88 90</a>
+							<a href="tel:004757848890">Tel: +55 67 12 3456-1234</a>
 							<br />
-							<a href="mailto:office@babord.no">office@babord.no</a>
+							<a href="mailto:office@babord.no">office@asdf.com</a>
 						</p>
 					</motion.div>
 				</div>

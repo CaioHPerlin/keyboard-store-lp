@@ -9,7 +9,7 @@
 	--text-primary: #ffffff;
 	--text-secondary: #ee7f7a;
 	--text-terciary: #1d3026;
-	--text-quarternary:#ece81a;
+	--text-quarternary: #ece81a;
 	--text-inverse: #000000;
 	--text-inverse-light: #3c4e45;
 	--text-inverse-ultraLight: #8d9b91;
@@ -33,7 +33,6 @@ body {
 h1 {
 	margin: 0;
 	line-height: 1;
-	
 }
 
 img {
@@ -65,9 +64,4 @@ a {
 	html {
 		color-scheme: dark;
 	}
-}
-
-h1, h2, h3, h4, h5, h6, p, span{
-
-	text-shadow: 0 0 3px rgb(0 0 0 / 75%);
 }

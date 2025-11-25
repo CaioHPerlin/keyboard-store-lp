@@ -106,7 +106,7 @@ export function StorySection() {
 					href="#"
 					className={`${style.link} ${style.arrow}`}
 				>
-					Verificar disponibilidade
+					Verificar disponibilidade &gt;
 				</motion.a>
 			</motion.section>
 			<motion.span

@@ -3,6 +3,7 @@
 	inset: 0;
 	z-index: -1;
 	transform: scale(1.1);
+	opacity: 0.2;
 	user-select: none;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .aboutSection h1 {
-	font-family: var(--font-bluu);
+	font-family: var(--font-saira);
 	font-size: 15px;
 	font-weight: 600;
 	color: var(--background-light);
@@ -51,7 +52,7 @@
 	min-height: 500px;
 	display: flex;
 	flex-direction: column;
-	font-family: var(--font-bluu);
+	font-family: var(--font-saira);
 	justify-content: flex-end;
 	@media screen and (max-width: 1024px) {
 		height: 100vh;
@@ -74,7 +75,7 @@
 		width: 100%;
 		font-size: 21px;
 		line-height: 24px;
-		padding-top: 3rem;
+		padding-top: 7rem;
 	}
 }
 
@@ -144,7 +145,7 @@
 	border-bottom: 3px solid transparent;
 	border-left: 5px solid var(--text-quarternary);
 	position: absolute;
-	left: 280px;
+	left: 275px;
 
 	@media screen and (max-width: 1024px) {
 		font-size: 14px;
