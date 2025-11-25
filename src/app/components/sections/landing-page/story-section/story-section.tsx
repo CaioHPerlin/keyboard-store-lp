@@ -58,7 +58,7 @@ export function StorySection() {
 		<SectionWrapper>
 			<motion.div className={style.imageWrapper} style={{ x: isMobile ? x : 0 }}>
 				<Image
-					src="/background-story.jpg"
+					src="/background-story.png"
 					width={2816}
 					height={1760}
 					alt="Story background"
@@ -77,21 +77,21 @@ export function StorySection() {
 					}}
 					className={style.title}
 				>
-					An unsung bauta
+					KNOB: Conforto +
 				</motion.h1>
 
 				<motion.h2
-					initial={{ x: -50, opacity: 0 }}
-					whileInView={{ x: 0, opacity: 1 }}
+					initial={{ x: isMobile ? -50 : -115 + 50, opacity: 0 }}
+					whileInView={{ x: isMobile ? 0 : -115, opacity: 1 }}
 					viewport={{ once: true, amount: 0.8 }}
 					transition={{
 						duration: ANIMATIONS.DURATION.DEFAULT,
-						delay: ANIMATIONS.DELAY.DEFAULT * 1,
+						delay: isMobile ? 0 : ANIMATIONS.DELAY.DEFAULT * 5,
 						ease: "easeOut",
 					}}
 					className={style.subtitle}
 				>
-					A celebrated hero
+					Precisão
 				</motion.h2>
 
 				<motion.a
@@ -100,13 +100,13 @@ export function StorySection() {
 					viewport={{ once: true, amount: 0.8 }}
 					transition={{
 						duration: ANIMATIONS.DURATION.DEFAULT,
-						delay: ANIMATIONS.DELAY.DEFAULT * 2,
+						delay: ANIMATIONS.DELAY.DEFAULT * 7,
 						ease: "easeOut",
 					}}
 					href="#"
 					className={`${style.link} ${style.arrow}`}
 				>
-					Explore the Babord story
+					Verificar disponibilidade
 				</motion.a>
 			</motion.section>
 			<motion.span
@@ -114,7 +114,7 @@ export function StorySection() {
 				animate={{ opacity: isRightSide && isMobile ? 0 : 0.5 }}
 				transition={{ duration: 0.3 }}
 			>
-				Swipe
+				Arraste
 			</motion.span>
 			<motion.a
 				href="#"
@@ -124,7 +124,7 @@ export function StorySection() {
 				transition={{ duration: 0.3 }}
 				style={{ pointerEvents: isRightSide && isMobile ? "auto" : "none" }}
 			>
-				Explore the Babord story
+				Verificar disponibilidade
 			</motion.a>
 
 			{isMobile && (
