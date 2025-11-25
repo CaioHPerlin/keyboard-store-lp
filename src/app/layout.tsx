@@ -1,4 +1,4 @@
-import { bluuSuperstarFont, maisonNeueFont } from "@/config/fonts";
+import { bluuSuperstarFont, maisonNeueFont, sairaFont } from "@/config/fonts";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -14,7 +14,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${bluuSuperstarFont.variable} ${maisonNeueFont.variable}`}>
+			<body
+				className={`${bluuSuperstarFont.variable} ${maisonNeueFont.variable} ${sairaFont.variable}`}
+			>
 				{children}
 			</body>
 		</html>

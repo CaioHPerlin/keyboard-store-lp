@@ -15,11 +15,11 @@
 .content {
 	text-align: center;
 	width: calc(100% - 300px);
-	max-width: 600px;
+	
+	
 	position: absolute;
 
-	@media screen and (max-width: 1024px) {
-	}
+	@media screen and (max-width: 1024px) {}
 
 	@media screen and (max-width: 600px) {
 		width: 100%;
@@ -27,20 +27,24 @@
 	}
 }
 
-.content h3 {
-	font-family: var(--font-bluu);
-	margin-top: 15px;
-	color: var(--text-quarternary);
-	text-decoration: none;
-	font-size: 15px;
-	font-weight: 700;
+.content a {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color:black;
+	border: 1px solid var(--text-quarternary);
+	background-color: var(--text-quarternary);
+	font-family: var(--font-saira);
+	
+	
+
+
 }
 
 .title {
-	font-family: var(--font-bluu);
+	font-family: var(--font-saira);
 	font-size: 80px;
 	line-height: 1;
-	font-weight: 600;
+	font-weight: 200;
 
 	@media screen and (max-width: 1024px) {
 		font-size: 35px;
@@ -48,9 +52,11 @@
 }
 
 .lead {
+	font-family: var(--font-saira);
 	font-size: 18px;
 	width: 60%;
 	margin: 25px auto 0;
+	margin-bottom: 20px;
 
 	@media screen and (max-width: 1024px) {
 		font-size: 0.9rem;

@@ -6,20 +6,16 @@ export default function HeroSection() {
 		<SectionWrapper>
 			<div className={style.videoWrapper}>
 				<video autoPlay muted loop playsInline>
-					<source src="/hero-section-video.mp4" type="video/mp4" />
+					<source src="/Video_Inicial.webm" type="video/webm" />
 				</video>
 			</div>
 			<section className={style.heroSection}>
 				<div className={style.content}>
-					<h1 className={style.title}>Harbour to home</h1>
+					<h1 className={style.title}>Corsair Black Friday</h1>
 
-					<p className={style.lead}>
-						Trust, traceability, tradition – this trinity ensures we always deliver
-						superior seafood, responsibly harvested and carefully processed, from
-						harbour to home.
-					</p>
+					<p className={style.lead}>Teclados Corsair com até 30% de desconto</p>
 
-					<h3>Watch the brand film</h3>
+					<a href="#">Compre Agora</a>
 				</div>
 			</section>
 		</SectionWrapper>

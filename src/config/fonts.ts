@@ -95,3 +95,29 @@ export const maisonNeueFont = localFont({
 	variable: "--font-maison",
 	display: "swap",
 });
+export const sairaFont = localFont({
+	src: [
+		{
+			path: "../app/assets/fonts/Saira/static/Saira-ExtraLight.ttf",
+			weight: "200",
+			style: "normal",
+		},
+		{
+			path: "../app/assets/fonts/Saira/static/Saira_Expanded-ExtraLight.ttf",
+			weight: "200",
+			style: "normal",
+		},
+		{
+			path: "../app/assets/fonts/Saira/static/Saira-Medium.ttf",
+			weight: "500",
+			style: "normal",
+		},
+		{
+			path: "../app/assets/fonts/Saira/static/Saira_Expanded-Medium.ttf",
+			weight: "600",
+			style: "normal",
+		},
+	],
+	variable: "--font-saira",
+	display: "swap",
+});
