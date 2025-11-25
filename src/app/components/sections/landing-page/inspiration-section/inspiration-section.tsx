@@ -2,7 +2,7 @@ import SectionWrapper from "../../../section-wrapper/section-wrapper";
 import style from "./inspiration-section.module.css";
 import Image from "next/image";
 
-import sectionThumbnailImage from "@/app/assets/images/inspiration-section/thumb.jpg";
+import sectionThumbnailImage from "@/app/assets/images/inspiration-section/Cod_Promocional.png";
 import wavePatternImage from "@/app/assets/images/wave-pattern.png";
 import { motion } from "motion/react";
 import { ANIMATIONS } from "@/app/utils/constants";
@@ -60,7 +60,7 @@ export function InspirationSection() {
 								ease: "easeOut",
 							}}
 						>
-							For the love of good
+							Coleção Call of Duty
 						</motion.h2>
 
 						<motion.p
@@ -73,11 +73,8 @@ export function InspirationSection() {
 								ease: "easeOut",
 							}}
 						>
-							Longing to return to the harbour. Longing for your partner to return
-							home. Longing is one of the names we have for love. But when you are
-							longing for something good, you’re not waiting in vain. So for the
-							love of good, we have prepared these tasty fish recipes. All exciting
-							and easy combinations so you don’t have to wait too long. Enjoy.
+							Aproveite a nossa nova coleção exclusiva ambientada no universo de
+							Call of Duty Black Ops 7, por tempo limitado.
 						</motion.p>
 						<motion.h3
 							initial={{ x: 50, opacity: 0 }}
@@ -90,7 +87,7 @@ export function InspirationSection() {
 							}}
 							className={style.arrow}
 						>
-							Explore the babord recipes
+							Explore a coleção
 						</motion.h3>
 					</div>
 				</div>

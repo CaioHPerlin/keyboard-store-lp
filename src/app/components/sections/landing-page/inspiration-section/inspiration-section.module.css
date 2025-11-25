@@ -43,7 +43,7 @@
 .bgPink {
 	position: absolute;
 	inset: 0;
-	background-color: var(--background-secondary, #ffb6c1);
+	background-color: rgba(155, 43, 0);
 	z-index: 0;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .content {
-	font-family: var(--font-bluu);
+	font-family: var(--font-saira);
 	position: relative;
 	z-index: 2;
 	padding: 5rem;
@@ -78,8 +78,8 @@
 	margin: 0 0 0.7rem 0;
 }
 
-.content h2 {
-	font-family: var(--font-bluu);
+.content h1 {
+	font-family: var(--font-saira);
 	font-size: 40px;
 	font-weight: 600;
 	margin: 0 0 0.5rem 0;
