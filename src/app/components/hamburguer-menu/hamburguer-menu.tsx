@@ -6,28 +6,13 @@ export default function HamburguerMenu() {
 		<header className={style.hamburguerMenu}>
 			<Image
 				className={style.iconLogo}
-				src="/icon-logo.png"
+				src="/icon.png"
 				alt="logo"
 				width={900}
 				height={200}
 				style={{ width: "50px", height: "auto" }}
 			/>
-			<Image
-				className={style.hamburguerIcon}
-				src="/hamburguer-icon.png"
-				alt="menu"
-				width={35}
-				height={35}
-				style={{ width: "25px", height: "auto" }}
-			/>
-			<Image
-				className={style.footerLogo}
-				src="/babord-footer.png"
-				alt="footer"
-				width={400}
-				height={400}
-				style={{ width: "110px", height: "auto" }}
-			/>
+			<span>© 2025 - ASDF</span>
 		</header>
 	);
 }

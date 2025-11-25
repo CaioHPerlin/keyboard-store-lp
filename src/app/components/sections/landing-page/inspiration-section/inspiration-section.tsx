@@ -4,19 +4,30 @@ import Image from "next/image";
 
 import sectionThumbnailImage from "@/app/assets/images/inspiration-section/Cod_Promocional.png";
 import wavePatternImage from "@/app/assets/images/wave-pattern.png";
+import { motion } from "motion/react";
+import { ANIMATIONS } from "@/app/utils/constants";
 
 export function InspirationSection() {
 	return (
 		<SectionWrapper>
 			<section className={style.inspirationSection}>
-				<div className={style.left}>
+				<motion.div
+					className={style.left}
+					initial={{ opacity: 0, x: -25, y: 0 }}
+					whileInView={{ opacity: 1, x: 0, y: 0 }}
+					viewport={{ once: true, amount: 0.4 }}
+					transition={{
+						duration: ANIMATIONS.DURATION.DEFAULT,
+						ease: "easeInOut",
+					}}
+				>
 					<Image
 						className={style.image}
 						src={sectionThumbnailImage}
 						alt="Bowl with vegetables and rice"
 						fill
 					/>
-				</div>
+				</motion.div>
 
 				<div className={style.right}>
 					<div className={style.bgPink} />
@@ -27,13 +38,57 @@ export function InspirationSection() {
 						fill
 					/>
 					<div className={style.content}>
-						<h1>Coleçao Call of Duty</h1>
+						<motion.h2
+							initial={{ x: 50, opacity: 0 }}
+							whileInView={{ x: 0, opacity: 1 }}
+							viewport={{ once: true, amount: 0.2 }}
+							transition={{
+								duration: ANIMATIONS.DURATION.DEFAULT,
+								delay: (ANIMATIONS.DELAY.DEFAULT / 2) * 0,
+								ease: "easeOut",
+							}}
+						>
+							Inspiration
+						</motion.h2>
+						<motion.h2
+							initial={{ x: 50, opacity: 0 }}
+							whileInView={{ x: 0, opacity: 1 }}
+							viewport={{ once: true, amount: 0.2 }}
+							transition={{
+								duration: ANIMATIONS.DURATION.DEFAULT,
+								delay: (ANIMATIONS.DELAY.DEFAULT / 2) * 1,
+								ease: "easeOut",
+							}}
+						>
+							Coleção Call of Duty
+						</motion.h2>
 
-						<p>
-							Aproveita a nossa nova coleçao exclusiva ambientada no universo de
-							Call of Duty Black Ops 7, por tempo limitada
-						</p>
-						<h3 className={style.arrow}>Explore a coleçao</h3>
+						<motion.p
+							initial={{ x: 50, opacity: 0 }}
+							whileInView={{ x: 0, opacity: 1 }}
+							viewport={{ once: true, amount: 0.2 }}
+							transition={{
+								duration: ANIMATIONS.DURATION.DEFAULT,
+								delay: (ANIMATIONS.DELAY.DEFAULT / 2) * 2,
+								ease: "easeOut",
+							}}
+						>
+							Aproveite a nossa nova coleção exclusiva ambientada no universo de
+							Call of Duty Black Ops 7, por tempo limitado.
+						</motion.p>
+						<motion.h3
+							initial={{ x: 50, opacity: 0 }}
+							whileInView={{ x: 0, opacity: 1 }}
+							viewport={{ once: true, amount: 0.2 }}
+							transition={{
+								duration: ANIMATIONS.DURATION.DEFAULT,
+								delay: (ANIMATIONS.DELAY.DEFAULT / 2) * 3,
+								ease: "easeOut",
+							}}
+							className={style.arrow}
+						>
+							Explore a coleção
+						</motion.h3>
 					</div>
 				</div>
 			</section>
