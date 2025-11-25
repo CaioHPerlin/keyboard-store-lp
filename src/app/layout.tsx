@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-	title: "Teclados",
+	title: "ASDF - Teclados Custom",
 	description: "Teclados mecânicos e magnéticos personalizados e de alta qualidade.",
 };
 
